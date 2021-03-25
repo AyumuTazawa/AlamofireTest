@@ -11,8 +11,6 @@ import SwiftyJSON
 
 class ArticleListViewController: UIViewController, UITableViewDataSource {
     
-    
-    
     let table = UITableView()
     
     var articles: [[String: String?]] = []
